@@ -1,0 +1,148 @@
+[
+    {
+        "correct?": false,
+        "name": "Red Bull Blue Edition, Blueberry Energy Drink",
+        "category": "Energy & Healthy Drink",
+        "confidence": [
+            {
+                "class_name": "Bottled Beverages & Drink Mixes",
+                "confidence": 0.15721390431637827
+            },
+            {
+                "class_name": "Gum & Mints",
+                "confidence": 0.11692315435772724
+            },
+            {
+                "class_name": "Energy & Endurance",
+                "confidence": 0.08950644679941618
+            },
+            {
+                "class_name": "Blueberry",
+                "confidence": 0.08247186913892529
+            },
+            {
+                "class_name": "Red Clover",
+                "confidence": 0.05318224298012527
+            },
+            {
+                "class_name": "Cough & Cold",
+                "confidence": 0.03377956707214491
+            },
+            {
+                "class_name": "Salt, Sugar & Honey",
+                "confidence": 0.03324818642127948
+            },
+            {
+                "class_name": "Condensed Milk & Cream",
+                "confidence": 0.02234652326707364
+            },
+            {
+                "class_name": "Elderberry",
+                "confidence": 0.020509871943861627
+            },
+            {
+                "class_name": "Juice",
+                "confidence": 0.019230456091741736
+            }
+        ]
+    },
+    {
+        "correct?": false,
+        "name": "Cinch Multi-Surface Cleaner, 32Oz",
+        "category": "Furniture Cleaners & Care",
+        "confidence": [
+            {
+                "class_name": "All-Purpose Cleaners",
+                "confidence": 0.8958586616479154
+            },
+            {
+                "class_name": "Floor & Carpet Cleaners & Deodorizers",
+                "confidence": 0.018951868336408134
+            },
+            {
+                "class_name": "Household Cleaner",
+                "confidence": 0.017080571917051163
+            },
+            {
+                "class_name": "Furniture Cleaners & Care",
+                "confidence": 0.011705668507090735
+            },
+            {
+                "class_name": "Cleaning Wipes",
+                "confidence": 0.006858281937073384
+            },
+            {
+                "class_name": "Kitchen Cleaners",
+                "confidence": 0.0068494032277462945
+            },
+            {
+                "class_name": "Bathroom Cleaners",
+                "confidence": 0.006491952043993319
+            },
+            {
+                "class_name": "Vitamins",
+                "confidence": 0.0029346790035098447
+            },
+            {
+                "class_name": "Shampoo",
+                "confidence": 0.0024007607787260724
+            },
+            {
+                "class_name": "Pest Control",
+                "confidence": 0.0018884927922106025
+            }
+        ]
+    },
+    {
+        "correct?": false,
+        "name": "Nivea Essentials Urban Skin Detox Night Gel Cream",
+        "category": "Night Cream & Moisturizer",
+        "confidence": [
+            {
+                "class_name": "Cream & Moisturizer",
+                "confidence": 0.4988237190634537
+            },
+            {
+                "class_name": "Other Beauty",
+                "confidence": 0.10735104786640033
+            },
+            {
+                "class_name": "Toothpaste",
+                "confidence": 0.07021174024061173
+            },
+            {
+                "class_name": "After Sun",
+                "confidence": 0.030711451648059173
+            },
+            {
+                "class_name": "Feminine Wash",
+                "confidence": 0.028771004134672627
+            },
+            {
+                "class_name": "Relief & Supplements",
+                "confidence": 0.016339219952968848
+            },
+            {
+                "class_name": "Bath & Body Wash",
+                "confidence": 0.012549197963316812
+            },
+            {
+                "class_name": "Other Vitamins",
+                "confidence": 0.01158820864467262
+            },
+            {
+                "class_name": "Energy & Healthy Drink",
+                "confidence": 0.011513890256238071
+            },
+            {
+                "class_name": "Deodorants & Antiperspirants",
+                "confidence": 0.010627170064551059
+            }
+        ]
+    },
+    {
+        "correct?": true,
+        "name": "Edward & Sons, Let'S Do Organic, Organic Tapioca Starch (Flour), 6 Oz (170 G)",
+        "category": "Baking Soda & Corn Starch"
+    }
+]
