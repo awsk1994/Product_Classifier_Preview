@@ -1,4 +1,5 @@
 # Notes/Advices
+  - In "./results/cv_compare_results/*", for the products with mismatch between predicted and actual answer, a more detailed json is displayed. In the json, **'category' key means the actual answer and 'confidence' key is confidence level for top guesses, whereby the highest confidence is chosen as the final prediction**.
  - Remember to remove API_KEY when you are done (if you are commiting to a public repo)
  - Delete classifier when classifier is no longer needed (to prevent more billing)
  - To see all classifiers, run src/list_classifiers.py
@@ -60,6 +61,7 @@
 # Step 5: Compare predicted and actual answers.
   - Code stored in "./results/*"
   - In "./results/*", the classify_output is just the predicted answers. The cv_compare_results is usually what I look at.
+  - In "./results/cv_compare_results/*", for the products with mismatch between predicted and actual answer, a more detailed json is displayed. In the json, **'category' key means the actual answer and 'confidence' key is confidence level for top guesses, whereby the highest confidence is chosen as the final prediction**.
   - The tricky part about is:
 	  1. classifier is there are 483 categories. That's actually a lot of categories for the typical classifier projects I have seen. (usually, they only have 4-5 categories)
 	  2. Even for me, some products are not 'wrong' if it doesn't match the actual answer. For example, the actual category for "Red Bull Blue Edition, Blueberry Energy Drink" is "Energy & Healthy Drink", but the classifier predicted "Bottled Beverages & Drink Mixes". Is the classifier wrong? Not really. Given that this is only a classifier with no general knowledge in it, I think the classifier is doing pretty well here.
